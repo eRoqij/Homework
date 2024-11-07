@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+/* =================================================================================================================== */
+
+.conteiner{
+  border: 1px solid #000;
+  background-color: #dbdbdb;
+  overflow: auto;
+  height: 500px;
+  padding-right: 15%;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.box_text{
+  display: inline-block;
+  width: 270px;
+  background-color: #be9f85;
+  padding: 20px 15px;
+  margin: 8px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 6px inset #000000
+}
