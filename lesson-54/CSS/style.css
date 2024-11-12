@@ -1,0 +1,28 @@
+body {
+    background-color: #212121;
+    color: #fff;
+}
+
+p {
+    font-size: 280%;
+}
+.block--fixed{
+background-color: #fff;
+position: fixed;
+left: 50%;
+right: 50px;
+bottom: 100px;
+width: auto;
+height: 100px;
+border-radius: 8px;
+}
+
+.ball--fixed{
+background-color: #e43636;
+width: 100px;
+height: 100px;
+border-radius: 100px;
+position: relative;
+left: 15%;
+top: -50%;
+}
