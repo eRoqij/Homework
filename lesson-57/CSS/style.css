@@ -1,0 +1,39 @@
+body {
+    background-color: #222;
+}
+
+div {
+    position: relative;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: #bb2525;
+    border: solid 5px #fff;
+    border-radius: 100px;
+    transform: translate(-123px, -9px)
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: #2540bb;
+    border: solid 5px #fff;
+    border-radius: 100px;
+    transform: translate(36px, -9px)
+}
