@@ -76,7 +76,7 @@ html {
     z-index: 10;
     position: relative;
     padding: 31px 0 309px;
-    background: url(/img/milk.jpg) 55% 50%/ cover no-repeat;
+    background: url(../img/milk.jpg) 55% 50%/ cover no-repeat;
     animation: slide 20s infinite;
     animation-delay: 2s;
     animation-timing-function: cubic-bezier(0.3, 1.5, 0.2, 1);
@@ -84,19 +84,19 @@ html {
 
 @keyframes slide {
     25% {
-        background: url(/img/child.jpg) 55% 50%/ cover no-repeat;
+        background: url(../img/child.jpg) 55% 50%/ cover no-repeat;
     }
 
     50% {
-        background: url(/img/cleaning.jpg) 55% 50%/ cover no-repeat;
+        background: url(../img/cleaning.jpg) 55% 50%/ cover no-repeat;
     }
 
     75% {
-        background: url(/img/nicetone.jpg) 55% 50%/ cover no-repeat;
+        background: url(../img/nicetone.jpg) 55% 50%/ cover no-repeat;
     }
 
     100% {
-        background: url(/img/milk.jpg) 55% 50%/ cover no-repeat;
+        background: url(../img/milk.jpg) 55% 50%/ cover no-repeat;
     }
 }
 
