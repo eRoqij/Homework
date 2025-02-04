@@ -611,6 +611,7 @@ html {
     position: absolute;
     top: 42%;
     transform: translateY(-50%);
+    transition: all 0.5s;
 }
 .prev:hover,
 .next:hover {
